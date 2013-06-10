@@ -1,0 +1,15 @@
+/********************** Tabs */
+.product-view .tabs { margin: 25px 0px; overflow:hidden;zoom: 1.00;text-transform:uppercase;font-family:georgia; border-image:url(http://www.highlandsoaps.com/images/prod_tabs_desc.jpg) 0 25 25 25 stretch stretch;}
+.product-view .tabs li                { float:left; border-right:1px solid #f2f2f2; border-left:0px solid #fff; font-size:0.9em; line-height:1em;}
+.product-view .tabs li.first          { border-left:0; }
+.product-view .tabs li.last           { border-right:0; }
+.product-view .tabs a                 { display:block; padding:6px 22px; color:#444; text-decoration: none;}
+.product-view .tabs a:hover           { text-decoration:none; color:#5a6807; ; text-decoration: none;}
+.product-view .tabs li.active a,
+.product-view .tabs li.active a:hover {font-weight:bold; color:#5a6807; }
+
+#product_tabs_tags_tabbed_contents.input-box input	{ width: 300px; }
+#product_tabs_tags_tabbed_contents .input-box	{ width: 300px; float:left; margin-right: 10px;}
+#product_tabs_related_tabbed_contents li	{ float:left; margin-right: 10px;}
+#product_tabs_related_tabbed_contents ol	{ clear: both;}
+.product-collateral:after { content:"."; display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; zoom: 1}
